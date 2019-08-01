@@ -1,0 +1,55 @@
+html, body 
+{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+div.image-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 16px;
+    margin-top: 16px;
+    padding: 0;
+    
+}
+
+li {
+    display: inline;
+}
+
+a {
+    padding: 12px;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #4285f4;
+    color: white;
+    
+}
+
